@@ -13,37 +13,46 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
-
 export const metadata: Metadata = {
-  title: "Oreo Maker",
-  description: "Crie sua Oreoreoreo",
-  authors: [
-    {
-      name: "Eduardo Rigo",
-      url: "https://eduardev.com/",
-    },
-  ],
+  generator: 'Next.js',
+  title: 'Oreo Maker',
+  description: 'Monte sua Oreo de forma divertida e nostálgica',
+  applicationName: 'Oreo Maker',
+  referrer: 'origin-when-cross-origin',
+  keywords: ['Next.js', 'React', 'JavaScript', 'typescript', 'nextjs', 'frontend', 'developer', 'front end', 'programmer'],
+  authors: [{ name: 'Eduardo Rigo', url: 'https://eduardev.com' }],
+  creator: 'Eduardo Rigo',
+  publisher: 'Eduardo Rigo',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
-    title: "Oreo Maker",
-    description: "Crie sua Oreoreoreo",
-    url: "https://www.yoursite.com",
-    siteName: "Oreo Maker",
+    title: 'Oreo Maker',
+    description: 'Monte sua Oreo de forma divertida e nostálgica',
+    url: 'https://oreo.eduardev.com',
+    siteName: 'Oreo Maker',
     images: [
       {
-        url: "/images/thumbnail.png",
+        url: 'https://www.oreo.eduardev.com/images/bg.png',
         width: 800,
         height: 600,
-        alt: "Thumbnail Image",
+      },
+      {
+        url: 'https://www.oreo.eduardev.com/images/bg-g.png',
+        width: 1800,
+        height: 1600,
       },
     ],
+    type: 'website',
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Oreo Maker",
-    description: "Crie sua Oreoreoreo",
-    images: ["/images/thumbnail.png"],
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
   },
-};
+}
+
 
 export default function RootLayout({
   children,
