@@ -35,12 +35,12 @@ export const metadata: Metadata = {
     siteName: 'Oreo Maker',
     images: [
       {
-        url: 'https://www.oreo.eduardev.com/images/bg.png',
+        url: 'https://oreo.eduardev.com/images/bg.png',
         width: 800,
         height: 600,
       },
       {
-        url: 'https://www.oreo.eduardev.com/images/bg-g.png',
+        url: 'https://oreo.eduardev.com/images/bg-g.png',
         width: 1800,
         height: 1600,
       },
